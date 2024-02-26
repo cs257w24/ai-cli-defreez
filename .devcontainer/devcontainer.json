@@ -1,0 +1,13 @@
+{
+    "name": "C++ and Python Development",
+    "build": {
+      "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+      "vscode": {
+        "settings": {},
+        "extensions": ["ms-vscode.cpptools", "ms-python.python"],
+        "postCreateCommand": "echo 'Environment setup complete!'"
+      }
+    }
+  }
